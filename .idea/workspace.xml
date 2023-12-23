@@ -5,19 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a8289bd-a673-4d3c-a669-88d737df67d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/dariel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/dariel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/dariel_text.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hero/HeroSection.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Logo/Logo.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Particles/Particles.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/configs.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/mouse.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contentlayer.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/projects/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Card/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/post/post_01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/HeroSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +32,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -93,6 +98,7 @@
       <workItem from="1702921369088" duration="320000" />
       <workItem from="1703262189081" duration="698000" />
       <workItem from="1703324879597" duration="8147000" />
+      <workItem from="1703353483303" duration="6477000" />
     </task>
     <servers />
   </component>
