@@ -5,43 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a8289bd-a673-4d3c-a669-88d737df67d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/projects/fantastic-five.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/content/projects/phone-store.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/dejavu-bar/diagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/dejavu-bar/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/dejavu-bar/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/dejavu-bar/order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/dejavu-bar/table.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/dejavu-bar/usecase.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/call.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/cart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/checkout-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/checkout-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/checkout_info.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/checkout_payos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/confirm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/create.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/create_step2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/dashboard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/detail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/detail_order.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/login.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/otp.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/products.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/roles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/root.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/staff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/table.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/phone-store/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/phone-store/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/projects/wordle-game.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/gecho/collection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/gecho/full.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/gecho/hero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/gecho/product.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/gecho/register.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/three/threejs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/woddle/worddle_game.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/hire/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/provider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/envshare.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/dejavu-bar.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contentlayer.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/contentlayer.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/[slug]/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/[slug]/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/HeroSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/access.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/portfolio-threejs.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/chronark.com.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/gecho.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/highstorm.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/phone-store.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/phone-store.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/planetfall.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/qstash.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/terraform-provider-vercel.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/unkey.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-auth-analytics.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-cli.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-core-analytics.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-edge-flags.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-kafka.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-qstash-sdk.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-ratelimit-analytics.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-ratelimit.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-react-ui.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-redis.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/upstash-web-analytics.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/zod-bird.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +48,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -82,7 +79,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/MyProfile/portfolio_next/public/projects/dejavu-bar",
+    "last_opened_file_path": "E:/MyProfile/portfolio_next/public/projects/gecho",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,6 +93,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyProfile\portfolio_next\public\projects\gecho" />
+      <recent name="E:\MyProfile\portfolio_next\public\projects\woddle" />
       <recent name="E:\MyProfile\portfolio_next\public\projects\dejavu-bar" />
       <recent name="E:\MyProfile\portfolio_next\public\projects\fantastic" />
       <recent name="E:\MyProfile\portfolio_next\public" />
@@ -132,6 +131,8 @@
       <workItem from="1703353483303" duration="6984000" />
       <workItem from="1703426918549" duration="13484000" />
       <workItem from="1703496808590" duration="13665000" />
+      <workItem from="1703565892088" duration="1519000" />
+      <workItem from="1703606043530" duration="6968000" />
     </task>
     <servers />
   </component>

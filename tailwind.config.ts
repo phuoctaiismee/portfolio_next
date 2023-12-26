@@ -1,4 +1,5 @@
 import type {Config} from 'tailwindcss'
+
 const defaultTheme = require("tailwindcss/defaultTheme");
 const config: Config = {
     content: [
@@ -6,6 +7,7 @@ const config: Config = {
         './src/components/**/*.{js,ts,jsx,tsx,mdx}',
         './src/app/**/*.{js,ts,jsx,tsx,mdx}',
     ],
+    darkMode: "class",
     theme: {
         extend: {
             typography: {
@@ -21,8 +23,8 @@ const config: Config = {
                 },
                 quoteless: {
                     css: {
-                        "blockquote p:first-of-type::before": { content: "none" },
-                        "blockquote p:first-of-type::after": { content: "none" },
+                        "blockquote p:first-of-type::before": {content: "none"},
+                        "blockquote p:first-of-type::after": {content: "none"},
                     },
                 },
             },
