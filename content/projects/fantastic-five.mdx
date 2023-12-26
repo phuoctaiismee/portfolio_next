@@ -1,0 +1,119 @@
+---
+title: Fantastic The Restaurant
+description: Nhằm chuyển đổi menu điện tử và tích hợp những tiện ích nâng cao trải nghiệm sử dụng dịch vụ của người dùng tại quán ăn, quán cà phê hoặc nhà hàng.
+date: 2023-12-01
+published: true
+repository: chưa publish
+---
+
+## Mô tả
+Đây là một website quản lý thông minh dành cho nhà hàng, quán ăn hoặc quán cà phê. Với một số tính năng nổi bật như:
+
+
+## Tính năng
+__1. Về phía người dùng__
+- Menu điện tử
+- Thanh toán online
+- Nhiều hình thức đặt món
+- Gọi nhân viên
+- Theo dõi chi tiết đơn hàng
+- Nhận thông báo
+
+__2. Về phía quản lý__
+- Thống kê doanh thu
+- Cấu hình sơ đồ bàn
+- Cấu hình phân quyền động
+- Cấu hình IP, tích điểm và thông tin quán
+
+__2. Về phía nhân viên__
+- Nhận và duyệt yêu cầu đặt món
+- Đơn hàng sẽ được cập nhật lặp tức nhờ ứng dụng WebSocket
+
+## Hình ảnh
+
+#### Khách hàng
+
+1. **Trang chủ và Sản phẩm**
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
+    <img src="/projects/fantastic/root.jpg" alt="Trang chủ của website"/>
+    <img src="/projects/fantastic/products.jpg" alt="Hiển thị sản phẩm trên website"/>
+</div>
+
+2. **Giỏ hàng và Hồ sơ**
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
+    <img src="/projects/fantastic/cart.jpg" alt="Giỏ hàng với các sản phẩm đã chọn"/>
+    <img src="/projects/fantastic/profile.jpg" alt="Hồ sơ cá nhân của khách hàng"/>
+</div>
+
+3. **Thanh toán**
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
+    <img src="/projects/fantastic/checkout-1.jpg" alt="Bước đầu tiên trong quá trình thanh toán"/>
+    <img src="/projects/fantastic/checkout-2.jpg" alt="Bước thứ hai trong quá trình thanh toán"/>
+</div>
+
+#### Nhân viên
+
+1. **Quản lý Nhân viên và quản lí bàn**
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
+    <img src="/projects/fantastic/staff.png" alt="Trang quản lý nhân viên"/>
+    <img src="/projects/fantastic/table.png" alt="Trang quản lý bàn ăn"/>
+</div>
+
+2. **Tạo mới và Xác nhận đơn hàng**
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
+    <img src="/projects/fantastic/create.png" alt="Tạo mới đơn hàng"/>
+    <img src="/projects/fantastic/create_step2.png" alt="Tạo mới đơn hàng bước 2"/>
+</div>
+
+3. **Quản lý và duyệt đơn hàng**
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
+    <img src="/projects/fantastic/confirm.png" alt="Xác nhận đơn hàng đã tạo"/>
+    <img src="/projects/fantastic/detail_order.png" alt="Chi tiết đơn hàng"/>
+</div>
+
+
+3. **Thanh toán**
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2">
+    <img src="/projects/fantastic/checkout_info.png" alt="Thông tin thanh toán"/>
+    <img src="/projects/fantastic/checkout_payos.png" alt="Thanh toán bằng PayOS"/>
+</div>
+
+#### Quản lý
+
+1. **Đăng nhập**
+![Ảnh 1](/projects/fantastic/login.png)
+
+2. **Bảng điều khiển**
+![Ảnh 2](/projects/fantastic/dashboard.png)
+
+3. **Phân quyền**
+![Ảnh 3](/projects/fantastic/roles.png)
+
+
+## Công nghệ sử dụng
+
+##### Front-End
+
+- [Next.js](https://nextjs.org/)
+- [React Query (Tanstack)](https://react-query.tanstack.com/)
+- [Axios](https://axios-http.com/)
+- [React-Grid-Layout](https://react-grid-layout.github.io/react-grid-layout/)
+- [Mantine UI](https://mantine.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [SockJS](https://github.com/sockjs/sockjs-client) + [StompJS](https://stomp-js.github.io/stomp-websocket/)
+
+##### Back-End
+
+- [Spring Boot 6](https://spring.io/projects/spring-boot)
+- [Spring Security](https://spring.io/projects/spring-security)
+- [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket)
+- [PayOS](https://vietqr.io/danh-sach-api/payment-confirmation/)
+- [SMS Infobip](https://www.infobip.com/)
+
+##### Database
+
+- [MySQL](https://www.mysql.com/)
+- [Firebase Cloud Storage](https://firebase.google.com/products/storage)
+- [Microsoft Azure](https://azure.microsoft.com/)
+- [Alibaba Cloud](https://www.alibabacloud.com/)
+

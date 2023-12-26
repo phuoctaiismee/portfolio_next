@@ -6,7 +6,8 @@ const HeroSection = () => {
     return (
         <>
             <div
-                className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0"/>
+                className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0"
+            />
             <Particles
                 className="absolute inset-0 -z-10 animate-fade-in"
                 quantity={200}
@@ -25,7 +26,7 @@ const HeroSection = () => {
                         className="underline duration-500 hover:text-zinc-300"
                     >
                         enjoy
-                    </Link>  creating delightful and designing that optimizes the user experience.
+                    </Link> creating delightful and designing that optimizes the user experience.
                 </h2>
             </div>
         </>

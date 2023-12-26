@@ -1,10 +1,10 @@
-import { notFound } from 'next/navigation'
-import { allProjects } from 'contentlayer/generated'
-import { Mdx } from '@/components/MDX/Mdx'
-import { Header } from './header'
+import {notFound} from 'next/navigation'
+import {allProjects} from 'contentlayer/generated'
+import {Mdx} from '@/components/MDX/Mdx'
+import {Header} from './header'
 import './mdx.css'
-import { ReportView } from './view'
-import { Redis } from '@upstash/redis'
+import {ReportView} from './view'
+import {Redis} from '@upstash/redis'
 
 export const revalidate = 60
 
@@ -24,7 +24,7 @@ export async function generateStaticParams(): Promise<Props['params'][]> {
         }))
 }
 
-export default async function PostPage({ params }: Props) {
+export default async function PostPage({params}: Props) {
     const slug = params?.slug
     const project = allProjects.find((project) => project.slug === slug)
 
@@ -38,11 +38,11 @@ export default async function PostPage({ params }: Props) {
 
     return (
         <div className="bg-zinc-50 min-h-screen">
-            <Header project={project} views={0} />
-            <ReportView slug={project.slug} />
+            <Header project={project} views={0}/>
+            {/*<ReportView slug={project.slug} />*/}
 
             <article className="px-4 py-12 mx-auto prose prose-zinc prose-quoteless">
-                <Mdx code={project.body.code} />
+                <Mdx code={project.body.code}/>
             </article>
         </div>
     )

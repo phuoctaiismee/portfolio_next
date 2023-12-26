@@ -5,24 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a8289bd-a673-4d3c-a669-88d737df67d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.development" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contentlayer.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Card/Card.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/post/post_01.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/projects/fantastic-five.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/projects/phone-store.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/dejavu-bar/diagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/dejavu-bar/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/dejavu-bar/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/dejavu-bar/order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/dejavu-bar/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/dejavu-bar/usecase.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/call.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/cart.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/checkout-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/checkout-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/checkout_info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/checkout_payos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/confirm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/create.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/create_step2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/dashboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/detail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/detail_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/login.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/otp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/products.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/roles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/root.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/staff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/fantastic/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/phone-store/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/projects/phone-store/2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/projects/envshare.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/dejavu-bar.mdx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contentlayer.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/contentlayer.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/[slug]/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/[slug]/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/projects/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Hero/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/HeroSection.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +51,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,25 +76,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/MyProfile/portfolio_next/public&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;E:\\MyProfile\\portfolio_next\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/MyProfile/portfolio_next/public/projects/dejavu-bar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "E:\\MyProfile\\portfolio_next\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "E:\\MyProfile\\portfolio_next\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyProfile\portfolio_next\public\projects\dejavu-bar" />
+      <recent name="E:\MyProfile\portfolio_next\public\projects\fantastic" />
       <recent name="E:\MyProfile\portfolio_next\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyProfile\portfolio_next\public\projects\phone-store" />
+      <recent name="E:\MyProfile\portfolio_next\content" />
+      <recent name="E:\MyProfile\portfolio_next" />
     </key>
   </component>
   <component name="RunManager">
@@ -98,7 +129,9 @@
       <workItem from="1702921369088" duration="320000" />
       <workItem from="1703262189081" duration="698000" />
       <workItem from="1703324879597" duration="8147000" />
-      <workItem from="1703353483303" duration="6477000" />
+      <workItem from="1703353483303" duration="6984000" />
+      <workItem from="1703426918549" duration="13484000" />
+      <workItem from="1703496808590" duration="13665000" />
     </task>
     <servers />
   </component>
