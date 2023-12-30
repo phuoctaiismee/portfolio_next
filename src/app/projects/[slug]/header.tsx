@@ -1,7 +1,7 @@
 "use client";
-import {ArrowLeft, Eye, Github, Twitter} from "lucide-react";
 import Link from "next/link";
 import React, {useEffect, useRef, useState} from "react";
+import {IconArrowLeft, IconBrandGithub, IconBrandTwitter, IconEye} from "@tabler/icons-react";
 
 type Props = {
     project: {
@@ -43,7 +43,7 @@ export const Header: React.FC<Props> = ({project, views}) => {
     return (
         <header
             ref={ref}
-            className="relative isolate overflow-hidden bg-gradient-to-tl from-black via-zinc-900 to-black"
+            className="relative isolate overflow-hidden bg-gradient-to-tl from-black to-black dark:bg-gradient-to-tl dark:from-black dark:via-zinc-900 dark:to-black"
         >
             <div
                 className={`fixed inset-x-0 top-0 z-50 backdrop-blur lg:backdrop-blur-none duration-200 border-b lg:bg-transparent ${
@@ -62,13 +62,13 @@ export const Header: React.FC<Props> = ({project, views}) => {
                                     : "text-zinc-600 hover:text-zinc-900"
                             } `}
                         >
-							<Eye className="w-5 h-5"/>{" "}
+							<IconEye className="w-5 h-5"/>{" "}
                             {Intl.NumberFormat("en-US", {notation: "compact"}).format(
                                 views,
                             )}
 						</span>
                         <Link target="_blank" href="#">
-                            <Twitter
+                            <IconBrandTwitter
                                 className={`w-6 h-6 duration-200 hover:font-medium ${
                                     isIntersecting
                                         ? " text-zinc-400 hover:text-zinc-100"
@@ -77,7 +77,7 @@ export const Header: React.FC<Props> = ({project, views}) => {
                             />
                         </Link>
                         <Link target="_blank" href="https://github.com/phuoctaiismee">
-                            <Github
+                            <IconBrandGithub
                                 className={`w-6 h-6 duration-200 hover:font-medium ${
                                     isIntersecting
                                         ? " text-zinc-400 hover:text-zinc-100"
@@ -95,7 +95,7 @@ export const Header: React.FC<Props> = ({project, views}) => {
                                 : "text-zinc-600 hover:text-zinc-900"
                         } `}
                     >
-                        <ArrowLeft className="w-6 h-6 "/>
+                        <IconArrowLeft className="w-6 h-6 "/>
                     </Link>
                 </div>
             </div>

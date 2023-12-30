@@ -27,6 +27,8 @@ export default function Particles({
     const canvasSize = useRef<{ w: number; h: number }>({w: 0, h: 0});
     const dpr = typeof window !== "undefined" ? window.devicePixelRatio : 1;
 
+    console.log(refresh)
+
     useEffect(() => {
         if (canvasRef.current) {
             context.current = canvasRef.current.getContext("2d");
@@ -40,6 +42,7 @@ export default function Particles({
         };
     }, []);
 
+
     useEffect(() => {
         onMouseMove();
     }, [mousePosition.x, mousePosition.y]);
@@ -52,6 +55,7 @@ export default function Particles({
         resizeCanvas();
         drawParticles();
     };
+
 
     const onMouseMove = () => {
         if (canvasRef.current) {
@@ -118,13 +122,13 @@ export default function Particles({
         };
     };
 
-    const drawCircle = (circle: Circle, update = false) => {
+    const drawCircle = (circle: Circle, update: boolean) => {
         if (context.current) {
             const {x, y, translateX, translateY, size, alpha} = circle;
             context.current.translate(translateX, translateY);
             context.current.beginPath();
             context.current.arc(x, y, size, 0, 2 * Math.PI);
-            context.current.fillStyle = `rgba(255, 255, 255, ${alpha})`;
+            context.current.fillStyle = `rgb(100, 116, 139)`;
             context.current.fill();
             context.current.setTransform(dpr, 0, 0, dpr, 0, 0);
 
@@ -150,7 +154,7 @@ export default function Particles({
         const particleCount = quantity;
         for (let i = 0; i < particleCount; i++) {
             const circle = circleParams();
-            drawCircle(circle);
+            drawCircle(circle, false);
         }
     };
 
@@ -207,7 +211,7 @@ export default function Particles({
                 circles.current.splice(i, 1);
                 // create a new circle
                 const newCircle = circleParams();
-                drawCircle(newCircle);
+                drawCircle(newCircle, false);
                 // update the circle position
             } else {
                 drawCircle(
