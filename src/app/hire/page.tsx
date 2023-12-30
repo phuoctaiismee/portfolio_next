@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 import {useTheme} from "next-themes";
-import {MoonIcon, SunIcon} from "lucide-react";
 import ThemeSwitcher from "@/components/ThemeSwitcher/ThemeSwitcher";
 
 const Hire = () => {
