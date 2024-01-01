@@ -23,7 +23,7 @@ const HeroSection = () => {
                 // refresh={isRefresh}
 
             />
-            <h1 className="z-10 text-4xl text-transparent duration-1000 bg-black dark:bg-white cursor-default text-edge-outline-light dark:text-edge-outline animate-title font-display sm:text-8xl md:text-9xl whitespace-nowrap bg-clip-text ">
+            <h1 className="z-10 text-6xl text-transparent duration-1000 bg-black dark:bg-white cursor-default text-edge-outline-light dark:text-edge-outline animate-title font-display sm:text-8xl md:text-9xl whitespace-nowrap bg-clip-text ">
                 dariel dev
             </h1>
             <div

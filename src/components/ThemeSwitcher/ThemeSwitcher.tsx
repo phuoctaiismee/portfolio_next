@@ -13,7 +13,7 @@ const ThemeSwitcher = () => {
 
     return (
         <button
-            className="h-9 w-9 flex justify-center rounded-full items-center bg-gray-800 animate-fade-in duration-300"
+            className="h-9 w-9 flex justify-center rounded-full items-center bg-zinc-950 dark:bg-gray-800 "
             onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
         >
             {isClient && theme && theme === 'dark' ? <IconSun className="w-5 text-orange-400"/> :

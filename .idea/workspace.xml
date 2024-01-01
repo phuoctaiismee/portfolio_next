@@ -5,39 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a8289bd-a673-4d3c-a669-88d737df67d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/content/projects/wordle-game.mdx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/gecho/collection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/gecho/full.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/gecho/hero.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/gecho/product.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/gecho/register.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/three/threejs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/projects/woddle/worddle_game.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/hire/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/provider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/access.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/portfolio-threejs.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/chronark.com.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/gecho.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/highstorm.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/phone-store.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/content/projects/phone-store.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/planetfall.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/qstash.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/terraform-provider-vercel.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/unkey.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/upstash-auth-analytics.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/upstash-cli.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/upstash-core-analytics.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/upstash-edge-flags.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/upstash-kafka.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/upstash-qstash-sdk.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/upstash-ratelimit-analytics.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/upstash-ratelimit.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/upstash-react-ui.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/upstash-redis.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/upstash-web-analytics.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/projects/zod-bird.mdx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/hire/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero/HeroSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero/HeroSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Particles/Particles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Particles/Particles.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ThemeSwitcher/ThemeSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThemeSwitcher/ThemeSwitcher.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,24 +50,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/MyProfile/portfolio_next/public/projects/gecho",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "E:\\MyProfile\\portfolio_next\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "actions.on.save",
-    "ts.external.directory.path": "E:\\MyProfile\\portfolio_next\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/MyProfile/portfolio_next/public/projects/gecho&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;E:\\MyProfile\\portfolio_next\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\MyProfile\\portfolio_next\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\MyProfile\portfolio_next\public\projects\gecho" />
@@ -132,7 +109,11 @@
       <workItem from="1703426918549" duration="13484000" />
       <workItem from="1703496808590" duration="13665000" />
       <workItem from="1703565892088" duration="1519000" />
-      <workItem from="1703606043530" duration="6968000" />
+      <workItem from="1703606043530" duration="7500000" />
+      <workItem from="1703693380503" duration="5997000" />
+      <workItem from="1703965404645" duration="6549000" />
+      <workItem from="1703996688477" duration="3350000" />
+      <workItem from="1704030702809" duration="2239000" />
     </task>
     <servers />
   </component>

@@ -27,7 +27,7 @@ export default function Particles({
     const canvasSize = useRef<{ w: number; h: number }>({w: 0, h: 0});
     const dpr = typeof window !== "undefined" ? window.devicePixelRatio : 1;
 
-    console.log(refresh)
+    // console.log(refresh)
 
     useEffect(() => {
         if (canvasRef.current) {

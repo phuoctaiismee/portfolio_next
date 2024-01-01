@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <main
             className="mx-auto py-5 px-10 flex flex-col items-center justify-center w-screen h-screen overflow-hidden dark:bg-gradient-to-tl from-black via-zinc-600/20 to-black">
-            <ThemeSwitcher/>
+            {/*<ThemeSwitcher/>*/}
             <Header/>
             <HeroSection/>
         </main>

@@ -2,6 +2,7 @@
 import Link from "next/link";
 import React, {useEffect, useRef, useState} from "react";
 import {IconArrowLeft} from "@tabler/icons-react";
+import ThemeSwitcher from "@/components/ThemeSwitcher/ThemeSwitcher";
 
 export const Navigation: React.FC = () => {
     const ref = useRef<HTMLElement>(null);
@@ -29,7 +30,7 @@ export const Navigation: React.FC = () => {
                 }`}
             >
                 <div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
-                    <div className="flex justify-between gap-8">
+                    <div className="flex justify-between items-center gap-8">
                         <Link
                             href="/projects"
                             className="duration-200 text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
@@ -42,6 +43,7 @@ export const Navigation: React.FC = () => {
                         >
                             Contact
                         </Link>
+                        <ThemeSwitcher/>
                     </div>
 
                     <Link
