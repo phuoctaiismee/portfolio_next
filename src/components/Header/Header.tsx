@@ -11,6 +11,10 @@ const navigation: Navlinks[] = [
     {
         label: 'Contact',
         link: '/contact'
+    },
+    {
+        label: 'Products',
+        link: '/products'
     }
 ]
 

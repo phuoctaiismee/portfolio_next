@@ -12,8 +12,12 @@ type Props = {
         slug: string
     }
 }
-//
-// const redis = Redis.fromEnv()
+
+export async function generateMetadata({params}: Props) {
+    return {
+        title: params.slug.toUpperCase() + " | Dariel",
+    }
+}
 
 export async function generateStaticParams(): Promise<Props['params'][]> {
     return allProjects

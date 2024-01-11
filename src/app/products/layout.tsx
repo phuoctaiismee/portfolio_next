@@ -1,10 +1,10 @@
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: 'Project',
-    description: 'Some of the projects are from work and some are on my own time.',
+    title: 'Productions',
+    description: 'Some of the products are from work and some are on my own time.',
 }
-export default function ProjectsLayout({
+export default function ProductsLayout({
                                            children,
                                        }: { children: React.ReactNode }) {
     return (

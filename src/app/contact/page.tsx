@@ -4,12 +4,13 @@ import {IconBrandGithub, IconBrandGmail, IconBrandLinkedin, IconBrandTwitter} fr
 import {Navigation} from "@/components/Navigation/Navigation";
 import {Card} from "@/components/Card/Card";
 
+
 const socials = [
     {
         icon: <IconBrandLinkedin size={20}/>,
         href: "https://linkedin.com/in/phuoctaiismee",
         label: "Linkedin",
-        handle: "@phuoctaiismee",
+        handle: "@NguyễnPhướcTài",
     },
     {
         icon: <IconBrandGmail size={20}/>,
@@ -24,7 +25,6 @@ const socials = [
         handle: "phuoctaiismee",
     },
 ];
-
 export default function Example() {
     return (
         <div className=" dark:bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
