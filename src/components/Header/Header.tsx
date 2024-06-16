@@ -12,10 +12,10 @@ const navigation: Navlinks[] = [
         label: 'Contact',
         link: '/contact'
     },
-    {
-        label: 'Products',
-        link: '/products'
-    }
+    // {
+    //     label: 'Products',
+    //     link: '/products'
+    // }
 ]
 
 const Header = () => {
