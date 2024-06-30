@@ -11,12 +11,12 @@ import {IconEye} from "@tabler/icons-react";
 export const revalidate = 60
 export default async function ProjectsPage() {
     //Lấy ra projects trọng tâm
-    const featured = allProjects.find((project) => project.slug === 'fantastic-five')!
+    const featured = allProjects.find((project) => project.slug === 'zoom-clone')!
     //Lấy ra projects top 2
-    const top2 = allProjects.find((project) => project.slug === 'dejavu-bar')!
+    const top2 = allProjects.find((project) => project.slug === 'fantastic-five')!
     // console.log(featured)
     //Lấy ra projects top 3
-    const top3 = allProjects.find((project) => project.slug === 'phone-store')!
+    const top3 = allProjects.find((project) => project.slug === 'dejavu-bar')!
 
     //Lọc ra những projects còn lại
     const sorted = allProjects
