@@ -16,7 +16,7 @@ export default async function ProjectsPage() {
     const top2 = allProjects.find((project) => project.slug === 'fantastic-five')!
     // console.log(featured)
     //Lấy ra projects top 3
-    const top3 = allProjects.find((project) => project.slug === 'dejavu-bar')!
+    const top3 = allProjects.find((project) => project.slug === 'apple-website')!
 
     //Lọc ra những projects còn lại
     const sorted = allProjects
