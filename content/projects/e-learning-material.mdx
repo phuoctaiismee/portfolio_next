@@ -1,0 +1,54 @@
+---
+title: E-Learning Material!
+description:  The "e-learning library" software offers learning materials such as images, videos, and related resources to support teachers from primary to high school.
+published: true
+date: 2024-05-01
+---
+
+## Description
+E-Learning Material was developed using the Java Swing platform as required by the Ministry of Education and Training to provide teaching materials for school teachers.
+
+## Project requirements:
+- The software should run directly from the USB and only function when connected to a USB.
+- No data copying is allowed (photos, videos, PDFs).
+- Lightweight, easy installation without the need for database management systems like SQL Server.
+
+## Solution:
+- Check USB Serial to ensure each USB has a unique serial number.
+- Encrypt the entire le and decrypt it only when necessary, creating multimedia viewers for it. 
+- Use SQLite
+
+## Feature
+- Document management
+- Multimedia viewer of images, videos, PDFs
+- Add one or more learning materials as a zip file
+- Filter by document type
+
+## Picture
+
+1. **Splash screen**
+![Splash screen](/projects/e-learning-material/loading.png)
+
+2. **Home**
+![Home](/projects/e-learning-material/home.png)
+
+3. **Menu**
+![Menu](/projects/e-learning-material/menu.png)
+
+4. **Material Frame**
+![Frame](/projects/e-learning-material/core.png)
+
+5. **Images**
+![Frame](/projects/e-learning-material/image.png)
+
+6. **Videos**
+![Frame](/projects/e-learning-material/video.png)
+
+## Technologies
+
+- [Java Swing](https://www.javatpoint.com/java-swing)
+- [SQLite](https://www.sqlite.org/index.html)
+- [Miglayout](http://miglayout.com/)
+- [Flatlaf](https://www.formdev.com/flatlaf/)
+- [Jasypt](http://www.jasypt.org/)
+
